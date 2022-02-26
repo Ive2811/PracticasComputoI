@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //variables
+        let enteros=5;
+        let decimal=2.5;
+        let booleano=true;
+        let string= "Iveth";
+
+        //const| var | let
+        
+        //const
+        const pi=3.14;
+        //pi=2.5;
+        console.log("Valor constante: "  + pi);
+        //var
+        var edad=25;
+        console.log("Valor de variable declarada con var  "  + edad);
+        var edad=60;
+        console.log("Valor redeclarada con var : "  + edad);
+        edad=85;
+        console.log("Valor redeclarada con var : "  + edad);
+    
+       //let
+       let nombre="José";
+       console.log("Valor de variable declarada con let:  "  + nombre);
+       nombre="María";
+       console.log("Valor de variable declarada con let:  "  + nombre);
+       //let nombre;
+
+       //estructura de control
+       let val1="25";
+       let val2=25;
+
+       let result=val1===val2;//igualdad estricta
+
+       if(result){
+           console.log(true);
+       }
+       else
+       {
+           console.log(false);
+       }
+
+       switch(result)
+       {
+           case true:
+               console.log("Los valores coinciden.");
+               break;
+            case false:
+               console.log("Los valores no coinciden.");
+               break;
+            default:
+                console.log("Valor no conocido.");
+       }
+
+       //estructura repetitiva 
+       let names=["Jose","Maria","Pablo"];
+       for(i=0;i<names.length;i++){
+           console.log(names[i]);
+       }
+       
+    </script>
+</body>
+</html>
